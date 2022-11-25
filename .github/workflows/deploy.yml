@@ -20,8 +20,8 @@ jobs:
           MONGO_INITDB_ROOT_USERNAME: root
           MONGO_INITDB_ROOT_PASSWORD: example
     env:
-      MONGODB_CONNECTION_PROTOCOL: mongodb+srv
-      MONGODB_CLUSTER_ADDRESS: cluster0.0hwv0jm.mongodb.net
+      MONGODB_CONNECTION_PROTOCOL: mongo
+      MONGODB_CLUSTER_ADDRESS: mongo
       MONGODB_USERNAME: root
       MONGODB_PASSWORD: example
       PORT: 8080
